@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/lvlpage.css">
+</head>
+<body>
+
+    <h2>Choose diffuculty and number of questions: </h2>
+    <div class="container">
+        <div class="justify-center flex-column">
+        <p>
+        <label for="questionNO">Choose a number of questions:</label>
+
+        <select name="questions" id="questionNO">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+        </select>
+        </p>
+    <p>
+    <label for="easy">Easy</label>
+    <input type="radio" id="easy" value="easy" name="diffoption">
+    </p>
+    <p>
+    <label for="medium">Medium</label>
+    <input type="radio" id="medium" value="medium" name="diffoption">
+    </p>
+    <p>
+    <label for="hard">Hard</label>
+    <input type="radio" id="hard" value="hard" name="diffoption">
+    </p>
+    <button value="Submit" onclick="isCheckedE()">Submit
+        </div>   
+    </div>  
+    
+
+
+    <script src="js/lvlpage.js"></script>
+</body>
+</html>
